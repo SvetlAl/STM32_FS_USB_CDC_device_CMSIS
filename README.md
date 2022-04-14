@@ -1,0 +1,1 @@
+# STM32_FS_USB_CDC_device_CMSIS
