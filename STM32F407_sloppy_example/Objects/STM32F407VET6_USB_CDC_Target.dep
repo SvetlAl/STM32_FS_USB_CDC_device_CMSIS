@@ -1,0 +1,50 @@
+Dependencies for Project 'STM32F407VET6_USB_CDC', Target 'Target': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\Core\src\main.c)(0x642C78B9)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc-I./RTE/_Target-IC:/Keil_v5/packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Keil_v5/packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F407xx -D_RTE_-o ./objects/main.o -MD)
+I (Core\inc\main.h)(0x642C602D)
+I (C:\Keil_v5\packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x6110CED0)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x6110CED0)
+I (Core\inc\stm32f407_clock.h)(0x642C6BEF)
+I (Core\inc\stm32f105_usbdfs_cdc.h)(0x642C602D)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603515E0)
+I (Core\inc\stm32f105_usbdfs_macros.h)(0x642C602D)
+F (.\Core\src\stm32f105_usbdfs_cdc.c)(0x642C602D)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc-I./RTE/_Target-IC:/Keil_v5/packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Keil_v5/packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F407xx -D_RTE_-o ./objects/stm32f105_usbdfs_cdc.o -MD)
+I (Core\inc\stm32f105_usbdfs_cdc.h)(0x642C602D)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603515E0)
+I (C:\Keil_v5\packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x6110CED0)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x6110CED0)
+I (Core\inc\stm32f105_usbdfs_macros.h)(0x642C602D)
+I (Core\inc\usb_cdc_desc.h)(0x642C608F)
+F (.\Core\src\stm32f407_clock.c)(0x642C7486)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc-I./RTE/_Target-IC:/Keil_v5/packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Keil_v5/packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F407xx -D_RTE_-o ./objects/stm32f407_clock.o -MD)
+I (Core\inc\stm32f407_clock.h)(0x642C6BEF)
+I (C:\Keil_v5\packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x6110CED0)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x6110CED0)
+F (RTE\Device\STM32F407VETx\startup_stm32f407xx.s)(0x642C6DC9)(--target=armv7em-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target-IC:/Keil_v5/packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Keil_v5/packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F407xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f407xx.o)
+F (RTE\Device\STM32F407VETx\system_stm32f4xx.c)(0x6110CED0)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc-I./RTE/_Target-IC:/Keil_v5/packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Keil_v5/packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F407xx -D_RTE_-o ./objects/system_stm32f4xx.o -MD)
+I (C:\Keil_v5\packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x6110CED0)
+I (C:\Keil_v5\packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x6110CED0)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3F6F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3F6F2)
+I (C:\Keil_v5\packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x6110CED0)

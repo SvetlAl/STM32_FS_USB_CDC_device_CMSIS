@@ -1,0 +1,10 @@
+--cpu=Cortex-M4 --fpu=SoftVFP
+".\objects\main.o"
+".\objects\stm32f105_usbdfs_cdc.o"
+".\objects\stm32f407_clock.o"
+".\objects\startup_stm32f407xx.o"
+".\objects\system_stm32f4xx.o"
+--strict --scatter ".\Objects\STM32F407VET6_USB_CDC.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\STM32F407VET6_USB_CDC.map" -o .\Objects\STM32F407VET6_USB_CDC.axf
